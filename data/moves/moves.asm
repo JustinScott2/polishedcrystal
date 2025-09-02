@@ -65,7 +65,7 @@ endc
 	move HAIL,            EFFECT_HAIL,                0, ICE,        -1, 10,   0, STATUS
 	move POISON_STING,    EFFECT_POISON_HIT,         15, POISON,    100, 35,  30, PHYSICAL
 	move U_TURN,          EFFECT_SWITCH_HIT,         70, BUG,       100, 20,   0, PHYSICAL
-	move PIN_MISSILE,     EFFECT_MULTI_HIT,          25, BUG,        95, 20,   0, PHYSICAL
+	move PIN_MISSILE,     EFFECT_MULTI_HIT,          25, BUG,       100, 20,   0, PHYSICAL
 	move LEER,            EFFECT_DEFENSE_DOWN,        0, NORMAL,    100, 30,   0, STATUS
 	move BITE,            EFFECT_FLINCH_HIT,         60, DARK,      100, 25,  30, PHYSICAL
 	move GROWL,           EFFECT_ATTACK_DOWN,         0, NORMAL,    100, 40,   0, STATUS
@@ -146,7 +146,7 @@ endc
 	move SCREECH,         EFFECT_DEFENSE_DOWN_2,      0, NORMAL,     85, 40,   0, STATUS
 	move DOUBLE_TEAM,     EFFECT_EVASION_UP,          0, NORMAL,     -1, 15,   0, STATUS
 	move RECOVER,         EFFECT_HEAL,                0, NORMAL,     -1, 5,    0, STATUS
-	move ROCK_BLAST,      EFFECT_MULTI_HIT,          25, ROCK,       90, 25,   0, PHYSICAL
+	move ROCK_BLAST,      EFFECT_MULTI_HIT,          25, ROCK,      100, 25,   0, PHYSICAL
 	move MINIMIZE,        EFFECT_MINIMIZE,            0, NORMAL,     -1, 10,   0, STATUS
 	move SMOKESCREEN,     EFFECT_ACCURACY_DOWN,       0, NORMAL,    100, 20,   0, STATUS
 	move CONFUSE_RAY,     EFFECT_CONFUSE,             0, GHOST,     100, 10,   0, STATUS
@@ -209,7 +209,7 @@ endc
 if DEF(FAITHFUL)
 	move FURY_STRIKES,    EFFECT_MULTI_HIT,          18, NORMAL,     80, 15,   0, PHYSICAL
 else
-	move FURY_STRIKES,    EFFECT_MULTI_HIT,          20, NORMAL,     85, 15,   0, PHYSICAL
+	move FURY_STRIKES,    EFFECT_MULTI_HIT,          25, NORMAL,    100, 15,   0, PHYSICAL
 endc
 	move BONEMERANG,      EFFECT_DOUBLE_HIT,         50, GROUND,     90, 10,   0, PHYSICAL
 	move REST,            EFFECT_HEAL,                0, PSYCHIC,    -1, 5,    0, STATUS
