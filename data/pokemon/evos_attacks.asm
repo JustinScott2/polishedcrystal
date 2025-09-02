@@ -1285,6 +1285,7 @@ GrowlithePlainEvosAttacks:
 	db 1, BITE
 	db 1, ROAR
 	db 6, EMBER
+    db 7, HEADBUTT
 	db 8, LEER
 	db 10, SAFEGUARD ; Odor Sleuth → egg move
 	db 12, BATON_PASS ; Helping Hand → new move
@@ -1311,6 +1312,8 @@ ArcaninePlainEvosAttacks:
 	db 1, ROAR
 	db 1, FLAME_CHARGE
 	db 1, TAKE_DOWN
+    db 1, HEALINGLIGHT
+    db 1, HEADBUTT
 	db 1, EXTREMESPEED ; evolution move
 	db -1 ; no more level-up moves
 
