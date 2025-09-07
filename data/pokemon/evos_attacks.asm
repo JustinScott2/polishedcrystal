@@ -776,7 +776,7 @@ endc
 	learnset 14, DISABLE
 	learnset 17, DOUBLE_SLAP
 	learnset 20, ROLLOUT
-	learnset 22, CHARM ; Round → Igglybuff move
+	learnset 22, PLAY_ROUGH ; Round → Igglybuff move
 	learnset 27, MEAN_LOOK ; Wake-Up Slap → new move
 	learnset 30, REST
 	learnset 32, BODY_SLAM
@@ -787,7 +787,7 @@ endc
 
 	evos_attacks Wigglytuff
 	learnset 1, MINIMIZE ; LGPE move
-	learnset 1, NASTY_PLOT ; SV TM move
+	learnset 1, BODY_SLAM ; SV TM move
 	learnset 1, DOUBLE_EDGE
 	learnset 1, PLAY_ROUGH
 	learnset 1, SING
