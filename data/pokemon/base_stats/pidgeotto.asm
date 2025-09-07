@@ -1,4 +1,4 @@
-	db  63,  60,  55,  71,  50,  50 ; 349 BST
+	db  63,  50,  55,  71,  60,  50 ; 349 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db NORMAL, FLYING ; type
@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F50, HATCH_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for PIDGEOTTO, KEEN_EYE, TANGLED_FEET, BIG_PECKS
+	abilities_for PIDGEOTTO, KEEN_EYE, TANGLED_FEET, NO_GUARD
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_FLYING, EGG_FLYING ; egg groups
 
