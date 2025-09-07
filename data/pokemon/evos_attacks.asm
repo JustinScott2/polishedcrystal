@@ -4440,7 +4440,7 @@ endc
 	learnset 13, LICK
 	learnset 19, HEADBUTT
 	learnset 24, CRUNCH
-	learnset 35, RAGE
+	learnset 35, KNOCK_OFF
 	learnset 43, PLAY_ROUGH
 	learnset 51, DOUBLE_EDGE ; Payback → event move
 	learnset 59, ROAR
