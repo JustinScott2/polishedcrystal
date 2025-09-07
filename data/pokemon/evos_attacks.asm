@@ -313,10 +313,10 @@ endc
 	learnset 1, TACKLE
 	learnset 5, GUST ; Sand Attack → Gust
 	learnset 9, MUD_SLAP ; Gust → GSC TM move
-	learnset 13, QUICK_ATTACK
+	learnset 13, SWIFT
 	learnset 17, RAGE ; Whirlwind → RBY TM move
 	learnset 21, CHARM ; Twister → egg move
-	learnset 25, SWIFT ; Feather Dance → TM move
+	learnset 25, QUICK_ATTACK ; Feather Dance → TM move
 	learnset 29, AGILITY
 	learnset 33, WING_ATTACK
 	learnset 37, ROOST
@@ -330,10 +330,10 @@ endc
 	learnset 1, TACKLE
 	learnset 5, GUST ; Sand Attack → Gust
 	learnset 9, MUD_SLAP ; Gust → GSC TM move
-	learnset 13, QUICK_ATTACK
+	learnset 13, SWIFT 
 	learnset 17, RAGE ; Whirlwind → RBY TM move
 	learnset 22, CHARM ; Twister → egg move
-	learnset 27, SWIFT ; Feather Dance → TM move
+	learnset 27, QUICK_ATTACK ; Feather Dance → TM move
 	learnset 32, AGILITY
 	learnset 37, WING_ATTACK
 	learnset 42, ROOST
