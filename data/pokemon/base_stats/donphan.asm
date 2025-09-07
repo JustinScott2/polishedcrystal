@@ -1,7 +1,7 @@
-	db  90, 120, 120,  50,  60,  60 ; 500 BST
+	db  120, 120, 120,  60,  60,  60 ; 500 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GROUND, GROUND ; type
+	db GROUND, FIGHTING ; type
 	db 60 ; catch rate
 	db 189 ; base exp
 	db NO_ITEM, KEE_BERRY ; held items
