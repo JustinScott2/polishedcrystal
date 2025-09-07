@@ -1200,7 +1200,7 @@ endc
 	learnset 1, ROAR
 	learnset 6, EMBER
 	learnset 8, LEER
-	learnset 10, SAFEGUARD ; Odor Sleuth → egg move
+	learnset 10, HEADBUTT ; Odor Sleuth → egg move
 	learnset 12, BATON_PASS ; Helping Hand → new move
 	learnset 17, FIRE_SPIN ; Flame Wheel → egg move
 	learnset 19, REVERSAL
@@ -1218,6 +1218,7 @@ endc
 
 	evos_attacks ArcaninePlain
 	learnset 1, DRAGON_DANCE ; new move
+    learnset 1, HEADBUTT
 	learnset 1, GROWL
 	learnset 1, BITE
 	learnset 1, ROAR
