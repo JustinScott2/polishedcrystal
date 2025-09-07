@@ -4891,7 +4891,8 @@ endc
 	learnset 1, DEFENSE_CURL
 	learnset 6, REVERSAL ; Flail → similar move
 	learnset 10, ROLLOUT
-	learnset 15, MAGNITUDE ; Natural Gift → Donphan move
+    learnset 13, DOUBLE_KICK
+	learnset 15, BULLDOZE ; Natural Gift → Donphan move
 	learnset 19, ENDURE
 	learnset 24, TAKE_DOWN ; Slam → Take Down
 	learnset 28, BODY_SLAM ; Take Down → TM move
@@ -4900,7 +4901,7 @@ endc
 	learnset 42, DOUBLE_EDGE
 
 	evos_attacks Donphan
-	learnset 1, FURY_STRIKES ; evolution move
+	learnset 1, STRENGTH ; evolution move
 	learnset 1, GUNK_SHOT ; HGSS tutor move
 	learnset 1, HORN_ATTACK
 	learnset 1, GROWL
@@ -4912,7 +4913,7 @@ endc
 	learnset 19, KNOCK_OFF
 	learnset 24, ANCIENTPOWER ; Slam → HGSS tutor move
 	learnset 30, IRON_TAIL ; Magnitude → TM move
-	learnset 37, SCARY_FACE
+	learnset 37, CLOSE_COMBAT
 	learnset 43, EARTHQUAKE
 	learnset 50, GIGA_IMPACT
 
