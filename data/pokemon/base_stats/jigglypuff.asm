@@ -1,4 +1,4 @@
-	db 115,  45,  20,  20,  45,  25 ; 270 BST
+	db 115,  40,  25,  20,  45,  25 ; 270 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db NORMAL, FAIRY ; type
@@ -8,9 +8,9 @@
 	dn GENDER_F75, HATCH_FASTER ; gender ratio, step cycles to hatch
 
 if DEF(FAITHFUL)
-	abilities_for JIGGLYPUFF, CUTE_CHARM, COMPETITIVE, FRISK
+	abilities_for JIGGLYPUFF, HUGE_POWER, COMPETITIVE, FRISK
 else
-	abilities_for JIGGLYPUFF, CUTE_CHARM, COMPETITIVE, SOUNDPROOF
+	abilities_for JIGGLYPUFF, HUGE_POWER, COMPETITIVE, SOUNDPROOF
 endc
 	db GROWTH_FAST ; growth rate
 	dn EGG_FAIRY, EGG_FAIRY ; egg groups
