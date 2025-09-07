@@ -3659,7 +3659,7 @@ endc
 	learnset 13, GUST ; Wing Attack → egg move
 	learnset 17, CONFUSE_RAY
 	learnset 19, WING_ATTACK ; Air Cutter → Wing Attack
-	learnset 24, SWIFT
+	learnset 24, POISON_JAB
 	learnset 27, SUPER_FANG ; Poison Fang → HGSS tutor move
 	learnset 32, MEAN_LOOK
 	learnset 35, LEECH_LIFE
