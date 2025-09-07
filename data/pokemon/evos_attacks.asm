@@ -1862,12 +1862,12 @@ endc
 	learnset 15, PURSUIT
 	learnset 19, BATON_PASS ; Pluck → XD move
 	learnset 22, DOUBLE_KICK ; Double Hit → new move
-	learnset 26, AGILITY
+	learnset 26, DOUBLE_EDGE
 	learnset 29, DOUBLE_TEAM ; Uproar → TM move
 	learnset 34, BULLDOZE ; Acupressure → TM move
 	learnset 38, SWORDS_DANCE
 	learnset 43, HI_JUMP_KICK ; Jump Kick → similar move
-	learnset 47, DRILL_PECK
+	learnset 47, BRAVE_BIRD
 	learnset 52, REVERSAL ; Endeavor → new move
 	learnset 56, THRASH
 
