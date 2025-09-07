@@ -4439,11 +4439,11 @@ endc
 	learnset 7, BITE
 	learnset 13, LICK
 	learnset 19, HEADBUTT
-	learnset 27, ROAR
+	learnset 24, CRUNCH
 	learnset 35, RAGE
 	learnset 43, PLAY_ROUGH
 	learnset 51, DOUBLE_EDGE ; Payback → event move
-	learnset 59, CRUNCH
+	learnset 59, ROAR
 	learnset 67, OUTRAGE
 
 	evos_attacks QwilfishPlain
