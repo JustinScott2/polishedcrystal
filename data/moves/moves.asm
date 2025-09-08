@@ -84,7 +84,7 @@ endc
 	move FLAMETHROWER,    EFFECT_BURN_HIT,           90, FIRE,      100, 15,  10, SPECIAL
 	move CALM_MIND,       EFFECT_CALM_MIND,           0, PSYCHIC,    -1, 20,   0, STATUS
 	move WATER_GUN,       EFFECT_NORMAL_HIT,         40, WATER,     100, 25,   0, SPECIAL
-	move HYDRO_PUMP,      EFFECT_NORMAL_HIT,        110, WATER,      80,  5,   0, SPECIAL
+	move HYDRO_PUMP,      EFFECT_SPEED_DOWN_HIT,    120, WATER,      85,  5,  10, SPECIAL
 	move SURF,            EFFECT_NORMAL_HIT,         90, WATER,     100, 15,   0, SPECIAL
 	move ICE_BEAM,        EFFECT_FREEZE_HIT,         90, ICE,       100, 10,  10, SPECIAL
 	move BLIZZARD,        EFFECT_FREEZE_HIT,        110, ICE,        70,  5,  10, SPECIAL
@@ -171,10 +171,10 @@ endc
 	move TRICK_ROOM,      EFFECT_TRICK_ROOM,          0, PSYCHIC,    -1,  5,   0, STATUS
 	move SKILL_SWAP,      EFFECT_SKILL_SWAP,          0, PSYCHIC,    -1, 10,   0, STATUS
 	move LICK,            EFFECT_PARALYZE_HIT,       30, GHOST,     100, 30,  30, PHYSICAL
-	move GUNK_SHOT,       EFFECT_POISON_HIT,        120, POISON,     80,  5,  30, PHYSICAL
+	move GUNK_SHOT,       EFFECT_POISON_HIT,        120, POISON,     85, 10,  20, PHYSICAL
 	move VENOSHOCK,       EFFECT_CONDITIONAL_BOOST,  65, POISON,    100, 10,   0, SPECIAL
 	move EARTH_POWER,     EFFECT_SP_DEF_DOWN_HIT,    90, GROUND,    100, 10,  10, SPECIAL
-	move FIRE_BLAST,      EFFECT_BURN_HIT,          110, FIRE,       85,  5,  10, SPECIAL
+	move FIRE_BLAST,      EFFECT_BURN_HIT,          120, FIRE,       85,  5,  10, SPECIAL
 	move WATERFALL,       EFFECT_FLINCH_HIT,         80, WATER,     100, 15,  20, PHYSICAL
 	move ICICLE_CRASH,    EFFECT_FLINCH_HIT,         85, ICE,        90, 10,  30, PHYSICAL
 	move SWIFT,           EFFECT_ALWAYS_HIT,         60, NORMAL,     -1, 20,   0, SPECIAL
@@ -288,7 +288,7 @@ endc
 	move SACRED_FIRE,     EFFECT_SACRED_FIRE,       100, FIRE,       95,  5,  50, PHYSICAL
 	move MAGNITUDE,       EFFECT_MAGNITUDE,           1, GROUND,    100, 30,   0, PHYSICAL
 	move DYNAMICPUNCH,    EFFECT_CONFUSE_HIT,       100, FIGHTING,   50,  5, 100, PHYSICAL
-	move MEGAHORN,        EFFECT_NORMAL_HIT,        120, BUG,        85, 10,   0, PHYSICAL
+	move MEGAHORN,        EFFECT_POISON_HIT,        120, BUG,        85, 10,  20, PHYSICAL
 	move DRAGONBREATH,    EFFECT_PARALYZE_HIT,       60, DRAGON,    100, 20,  30, SPECIAL
 	move BATON_PASS,      EFFECT_BATON_PASS,          0, NORMAL,     -1, 40,   0, STATUS
 	move ENCORE,          EFFECT_ENCORE,              0, NORMAL,    100,  5,   0, STATUS
@@ -299,7 +299,7 @@ else
 	move RAPID_SPIN,      EFFECT_RAPID_SPIN,         50, NORMAL,    100, 20, 100, PHYSICAL
 endc
 	move SHADOW_CLAW,     EFFECT_NORMAL_HIT,         70, GHOST,     100, 15,   0, PHYSICAL
-	move IRON_TAIL,       EFFECT_DEFENSE_DOWN_HIT,  100, STEEL,      75, 15,  30, PHYSICAL
+	move IRON_TAIL,       EFFECT_DEFENSE_DOWN_HIT,  120, STEEL,      85, 10,  20, PHYSICAL
 	move METAL_CLAW,      EFFECT_ATTACK_UP_HIT,      50, STEEL,      95, 35,  10, PHYSICAL
 	move AURA_SPHERE,     EFFECT_ALWAYS_HIT,         80, FIGHTING,   -1, 20,   0, SPECIAL
 	move HEALINGLIGHT,    EFFECT_HEALING_LIGHT,       0, NORMAL,     -1,  5,   0, STATUS
