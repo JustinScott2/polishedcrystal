@@ -76,8 +76,8 @@ VioletMart:
 	db X_ATTACK
 	db X_DEFEND
 	db X_SPEED
-    db ABILITY_CAPSULE
-    db ABILITY_PATCH
+	db ABILITY_CAP
+	db ABILITYPATCH
 	db FLOWER_MAIL
 	db -1
 
