@@ -3380,7 +3380,8 @@ endc
 	learnset 64, FLARE_BLITZ ; Eruption → egg move
 
 	evos_attacks Quilava
-	evo_data EVOLVE_LEVEL, 36, TYPHLOSION_HISUIAN
+	evo_data EVOLVE_LEVEL, 36, TR_MORNDAY, TYPHLOSION, PLAIN_FORM
+	evo_data EVOLVE_LEVEL, 36, TR_EVENITE, TYPHLOSION, HISUIAN_FORM
 	learnset 1, TACKLE
 	learnset 1, LEER
 	learnset 6, SMOKESCREEN
