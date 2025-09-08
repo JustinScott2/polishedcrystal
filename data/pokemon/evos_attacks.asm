@@ -292,10 +292,10 @@ PidgeyEvosAttacks:
 	db 1, TACKLE
 	db 5, GUST ; Sand Attack → Gust
 	db 9, MUD_SLAP ; Gust → GSC TM move
-	db 13, QUICK_ATTACK
+	db 13, SWIFT
 	db 17, RAGE ; Whirlwind → RBY TM move
 	db 21, CHARM ; Twister → egg move
-	db 25, SWIFT ; Feather Dance → TM move
+	db 25, QUICK_ATTACK ; Feather Dance → TM move
 	db 29, AGILITY
 	db 33, WING_ATTACK
 	db 37, ROOST
@@ -311,10 +311,10 @@ PidgeottoEvosAttacks:
 	db 1, TACKLE
 	db 5, GUST ; Sand Attack → Gust
 	db 9, MUD_SLAP ; Gust → GSC TM move
-	db 13, QUICK_ATTACK
+	db 13, SWIFT
 	db 17, RAGE ; Whirlwind → RBY TM move
 	db 22, CHARM ; Twister → egg move
-	db 27, SWIFT ; Feather Dance → TM move
+	db 27, QUICK_ATTACK ; Feather Dance → TM move
 	db 32, AGILITY
 	db 37, WING_ATTACK
 	db 42, ROOST
@@ -827,7 +827,7 @@ JigglypuffEvosAttacks:
 WigglytuffEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, MINIMIZE ; LGPE move
-	db 1, NASTY_PLOT ; SV TM move
+	db 1, BODY_SLAM ; SV TM move
 	db 1, DOUBLE_EDGE
 	db 1, PLAY_ROUGH
 	db 1, SING
@@ -1287,7 +1287,7 @@ GrowlithePlainEvosAttacks:
 	db 6, EMBER
     db 7, HEADBUTT
 	db 8, LEER
-	db 10, SAFEGUARD ; Odor Sleuth → egg move
+	db 10, HEADBUTT
 	db 12, BATON_PASS ; Helping Hand → new move
 	db 17, FIRE_SPIN ; Flame Wheel → egg move
 	db 19, REVERSAL
@@ -1307,6 +1307,7 @@ GrowlithePlainEvosAttacks:
 ArcaninePlainEvosAttacks:
 	db -1 ; no more evolutions
 	db 1, DRAGON_DANCE ; new move
+    db 1, HEADBUTT
 	db 1, GROWL
 	db 1, BITE
 	db 1, ROAR
@@ -2030,7 +2031,7 @@ DodrioEvosAttacks:
 	db 34, BULLDOZE ; Acupressure → TM move
 	db 38, SWORDS_DANCE
 	db 43, HI_JUMP_KICK ; Jump Kick → similar move
-	db 47, DRILL_PECK
+	db 47, BRAVE_BIRD
 	db 52, REVERSAL ; Endeavor → new move
 	db 56, THRASH
 	db -1 ; no more level-up moves
@@ -3709,7 +3710,8 @@ CyndaquilEvosAttacks:
 	db -1 ; no more level-up moves
 
 QuilavaEvosAttacks:
-	evo_data EVOLVE_LEVEL, 36, TYPHLOSION
+    evo_data EVOLVE_LEVEL, 36, TR_MORNDAY, TYPHLOSION, PLAIN_FORM
+	evo_data EVOLVE_LEVEL, 36, TR_EVENITE, TYPHLOSION, HISUIAN_FORM
 	db -1 ; no more evolutions
 	db 1, TACKLE
 	db 1, LEER
@@ -4018,7 +4020,7 @@ CrobatEvosAttacks:
 	db 13, GUST ; Wing Attack → egg move
 	db 17, CONFUSE_RAY
 	db 19, WING_ATTACK ; Air Cutter → Wing Attack
-	db 24, SWIFT
+	db 24, POISON_JAB
 	db 27, SUPER_FANG ; Poison Fang → HGSS tutor move
 	db 32, MEAN_LOOK
 	db 35, LEECH_LIFE
@@ -5387,7 +5389,8 @@ PhanpyEvosAttacks:
 	db 1, DEFENSE_CURL
 	db 6, REVERSAL ; Flail → similar move
 	db 10, ROLLOUT
-	db 15, MAGNITUDE ; Natural Gift → Donphan move
+    db 13, DOUBLE_KICK
+	db 15, BULLDOZE ; Natural Gift → Donphan move
 	db 19, ENDURE
 	db 24, TAKE_DOWN ; Slam → Take Down
 	db 28, BODY_SLAM ; Take Down → TM move
@@ -5398,7 +5401,7 @@ PhanpyEvosAttacks:
 
 DonphanEvosAttacks:
 	db -1 ; no more evolutions
-	db 1, FURY_STRIKES ; evolution move
+	db 1, STRENGTH ; evolution move
 	db 1, GUNK_SHOT ; HGSS tutor move
 	db 1, HORN_ATTACK
 	db 1, GROWL
@@ -5410,7 +5413,7 @@ DonphanEvosAttacks:
 	db 19, KNOCK_OFF
 	db 24, ANCIENTPOWER ; Slam → HGSS tutor move
 	db 30, IRON_TAIL ; Magnitude → TM move
-	db 37, SCARY_FACE
+	db 37, CLOSE_COMBAT
 	db 43, EARTHQUAKE
 	db 50, GIGA_IMPACT
 	db -1 ; no more level-up moves
