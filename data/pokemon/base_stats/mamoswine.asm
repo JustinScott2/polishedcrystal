@@ -1,4 +1,4 @@
-	db 110, 130,  80,  80,  70,  60 ; 530 BST
+	db 110, 130,  80,  65,  70,  75 ; 530 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db ICE, GROUND ; type
@@ -7,7 +7,7 @@
 	db RAWST_BERRY, NEVERMELTICE ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for MAMOSWINE, OBLIVIOUS, SNOW_CLOAK, THICK_FAT
+	abilities_for MAMOSWINE, OBLIVIOUS, THICK_FAT, SLUSH_RUSH
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
