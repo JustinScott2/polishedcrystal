@@ -4181,7 +4181,7 @@ endc
 	learnset 29, SCREECH
 	learnset 33, HEALINGLIGHT ; Moonlight → similar move
 	learnset 37, SUCKER_PUNCH ; Mean Look → tutor move
-	learnset 41, DOUBLE_EDGE ; Last Resort → tutor move
+	learnset 41, BODY_SLAM ; Last Resort → tutor move
 	learnset 45, MEAN_LOOK ; Guard Swap → Mean Look
 
 	evos_attacks Murkrow
