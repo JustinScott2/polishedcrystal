@@ -1,7 +1,7 @@
 	db  65, 130,  60,  110,  95, 65 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIRE, FIRE ; type
+	db FIRE, NORMAL ; type
 	db 45 ; catch rate
 	db 198 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
