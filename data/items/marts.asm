@@ -65,7 +65,7 @@ CherrygroveMartAfterDex:
 	db -1
 
 VioletMart:
-	db 13 ; # items
+	db 11 ; # items
 	db POKE_BALL
 	db REPEAT_BALL
 	db POTION
@@ -73,11 +73,9 @@ VioletMart:
 	db ANTIDOTE
 	db PARALYZEHEAL
 	db AWAKENING
-	db X_ATTACK
-	db X_DEFEND
-	db X_SPEED
-	db ABILITY_CAP, 1
-	db ABILITYPATCH, 1
+    db RARE_CANDY
+    db ABILITY_CAP
+    db ABILITYPATCH
 	db FLOWER_MAIL
 	db -1
 
@@ -139,15 +137,17 @@ Goldenrod2FMart2Eevee:
 
 Goldenrod3FMart:
 Celadon5FMart2:
-	db 8 ; # items
-	db X_ATTACK
-	db X_DEFEND
-	db X_SPEED
-	db X_SP_ATK
-	db X_SP_DEF
-	db X_ACCURACY
-	db DIRE_HIT
-	db GUARD_SPEC
+	db 10 ; # items
+    db ODD_SUVENIR
+	db FIRE_STONE
+	db WATER_STONE
+	db THUNDERSTONE
+	db LEAF_STONE
+	db MOON_STONE
+	db SUN_STONE
+	db SHINY_STONE
+	db DUSK_STONE
+    db LINKING_CORD
 	db -1
 
 Goldenrod4FMart:
