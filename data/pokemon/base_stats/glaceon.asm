@@ -1,7 +1,7 @@
 	db  65,  60, 110,  65, 130,  95 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db ICE, ICE ; type
+	db ICE, NORMAL ; type
 	db 45 ; catch rate
 	db 196 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
@@ -10,7 +10,7 @@
 if DEF(FAITHFUL)
 	abilities_for GLACEON, SNOW_CLOAK, SNOW_CLOAK, ICE_BODY
 else
-	abilities_for GLACEON, SNOW_CLOAK, SNOW_WARNING, ICE_BODY
+	abilities_for GLACEON, SNOW_CLOAK, SNOW_WARNING, SLUSH_RUSH
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
