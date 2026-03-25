@@ -1,7 +1,7 @@
 	db  65, 130,  60,  65,  95, 110 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db FIRE, FIRE ; type
+	db FIRE, NORMAL ; type
 	db 45 ; catch rate
 	db 198 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
@@ -10,7 +10,7 @@
 if DEF(FAITHFUL)
 	abilities_for FLAREON, FLASH_FIRE, FLASH_FIRE, GUTS
 else
-	abilities_for FLAREON, FLASH_FIRE, DROUGHT, GUTS
+	abilities_for FLAREON, FLASH_FIRE, DROUGHT, FUR_COAT
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups

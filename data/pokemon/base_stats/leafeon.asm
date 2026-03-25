@@ -1,7 +1,7 @@
 	db  65, 110, 130,  95,  60,  65 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db GRASS, GRASS ; type
+	db GRASS, NORMAL ; type
 	db 45 ; catch rate
 	db 196 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
@@ -10,7 +10,7 @@
 if DEF(FAITHFUL)
 	abilities_for LEAFEON, LEAF_GUARD, LEAF_GUARD, CHLOROPHYLL
 else
-	abilities_for LEAFEON, LEAF_GUARD, NATURAL_CURE, CHLOROPHYLL
+	abilities_for LEAFEON, CHLOROPHYLL, NATURAL_CURE, HARVEST
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups

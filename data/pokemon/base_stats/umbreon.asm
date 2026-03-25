@@ -1,7 +1,7 @@
 	db  95,  65, 110,  65,  60, 130 ; 525 BST
 	;   hp  atk  def  spe  sat  sdf
 
-	db DARK, DARK ; type
+	db DARK, NORMAL ; type
 	db 45 ; catch rate
 	db 197 ; base exp
 	db NO_ITEM, NO_ITEM ; held items
@@ -10,7 +10,7 @@
 if DEF(FAITHFUL)
 	abilities_for UMBREON, SYNCHRONIZE, SYNCHRONIZE, INNER_FOCUS
 else
-	abilities_for UMBREON, SYNCHRONIZE, MAGIC_GUARD, INNER_FOCUS
+	abilities_for UMBREON, SYNCHRONIZE, MAGIC_GUARD, FUR_COAT
 endc
 	db GROWTH_MEDIUM_FAST ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
