@@ -1,12 +1,13 @@
 BlueCardMartData:
 	db 9
-	db ULTRA_BALL,   2
-	db FULL_RESTORE, 2
-	db ELIXIR,       2
-	db MAX_ELIXIR,   3
-	db NUGGET,       3
-	db RARE_CANDY,   4
-	db EVIOLITE,     5
-	db PP_UP,        6
-	db ABILITY_CAP,  7
+	db EJECT_BUTTON,   1
+	db EJECT_PACK,     1
+	db RED_CARD,       1
+	db MINT_LEAF,      2
+	db ABILITY_PATCH,  5
+	db ABILITY_CAP,    5
+	db PUNCHING_GLOVE, 5
+	db RARE_CANDY,     5
+	db EVIOLITE,       5
+
 	db -1
