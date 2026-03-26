@@ -1,4 +1,4 @@
-	db  50,  50,  40,  50,  30,  30 ; 250 BST
+	db  50,  50,  40,  45,  30,  35 ; 250 BST
 	;   hp  atk  def  spe  sat  sdf
 
 	db ICE, GROUND ; type
@@ -7,7 +7,7 @@
 	db NO_ITEM, RAWST_BERRY ; held items
 	dn GENDER_F50, HATCH_MEDIUM_FAST ; gender ratio, step cycles to hatch
 
-	abilities_for SWINUB, OBLIVIOUS, SNOW_CLOAK, THICK_FAT
+	abilities_for SWINUB, OBLIVIOUS, THICK_FAT, SLUSH_RUSH
 	db GROWTH_SLOW ; growth rate
 	dn EGG_GROUND, EGG_GROUND ; egg groups
 
