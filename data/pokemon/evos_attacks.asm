@@ -313,10 +313,10 @@ endc
 	learnset 1, TACKLE
 	learnset 5, GUST ; Sand Attack → Gust
 	learnset 9, MUD_SLAP ; Gust → GSC TM move
-	learnset 13, QUICK_ATTACK
+	learnset 13, SWIFT
 	learnset 17, RAGE ; Whirlwind → RBY TM move
 	learnset 21, CHARM ; Twister → egg move
-	learnset 25, SWIFT ; Feather Dance → TM move
+	learnset 25, QUICK_ATTACK ; Feather Dance → TM move
 	learnset 29, AGILITY
 	learnset 33, WING_ATTACK
 	learnset 37, ROOST
@@ -330,10 +330,10 @@ endc
 	learnset 1, TACKLE
 	learnset 5, GUST ; Sand Attack → Gust
 	learnset 9, MUD_SLAP ; Gust → GSC TM move
-	learnset 13, QUICK_ATTACK
+	learnset 13, SWIFT
 	learnset 17, RAGE ; Whirlwind → RBY TM move
 	learnset 22, CHARM ; Twister → egg move
-	learnset 27, SWIFT ; Feather Dance → TM move
+	learnset 27, QUICK_ATTACK ; Feather Dance → TM move
 	learnset 32, AGILITY
 	learnset 37, WING_ATTACK
 	learnset 42, ROOST
@@ -346,10 +346,10 @@ endc
 	learnset 1, TACKLE
 	learnset 5, MUD_SLAP ; Sand Attack → similar move
 	learnset 9, GUST
-	learnset 13, QUICK_ATTACK
+	learnset 13, SWIFT
 	learnset 17, RAGE ; Whirlwind → RBY TM move
 	learnset 22, CHARM ; Twister → egg move
-	learnset 27, SWIFT ; Feather Dance → TM move
+	learnset 27, QUICK_ATTACK ; Feather Dance → TM move
 	learnset 32, AGILITY
 	learnset 38, WING_ATTACK
 	learnset 44, ROOST
@@ -776,7 +776,7 @@ endc
 	learnset 14, DISABLE
 	learnset 17, DOUBLE_SLAP
 	learnset 20, ROLLOUT
-	learnset 22, CHARM ; Round → Igglybuff move
+	learnset 22, PLAY_ROUGH ; Round → Igglybuff move
 	learnset 27, MEAN_LOOK ; Wake-Up Slap → new move
 	learnset 30, REST
 	learnset 32, BODY_SLAM
@@ -794,6 +794,7 @@ endc
 	learnset 1, DEFENSE_CURL
 	learnset 1, DISABLE
 	learnset 1, DOUBLE_SLAP
+	learnset 1, BODY_SLAM 
 
 	evos_attacks Zubat
 	evo_data EVOLVE_LEVEL, 22, GOLBAT
@@ -1200,7 +1201,7 @@ endc
 	learnset 1, ROAR
 	learnset 6, EMBER
 	learnset 8, LEER
-	learnset 10, SAFEGUARD ; Odor Sleuth → egg move
+	learnset 10, HEADBUTT ; Odor Sleuth → egg move
 	learnset 12, BATON_PASS ; Helping Hand → new move
 	learnset 17, FIRE_SPIN ; Flame Wheel → egg move
 	learnset 19, REVERSAL
@@ -1223,6 +1224,7 @@ endc
 	learnset 1, ROAR
 	learnset 1, FLAME_CHARGE
 	learnset 1, TAKE_DOWN
+	learnset 1, HEADBUTT
 	learnset 1, EXTREMESPEED ; evolution move
 
 	evos_attacks GrowlitheHisuian
@@ -1845,9 +1847,10 @@ endc
 	learnset 22, DOUBLE_KICK ; Double Hit → new move
 	learnset 26, AGILITY
 	learnset 29, DOUBLE_TEAM ; Uproar → TM move
-	learnset 33, TRI_ATTACK ; Acupressure → Crystal move
+	learnset 33, DOUBLE_EDGE ; Acupressure → Crystal move
 	learnset 36, SWORDS_DANCE
 	learnset 40, HI_JUMP_KICK ; Jump Kick → similar move
+	learnset 41, BRAVE_BIRD
 	learnset 43, DRILL_PECK
 	learnset 47, REVERSAL ; Endeavor → new move
 	learnset 50, THRASH
@@ -1864,9 +1867,11 @@ endc
 	learnset 22, DOUBLE_KICK ; Double Hit → new move
 	learnset 26, AGILITY
 	learnset 29, DOUBLE_TEAM ; Uproar → TM move
+	learnset 33, DOUBLE_EDGE
 	learnset 34, BULLDOZE ; Acupressure → TM move
 	learnset 38, SWORDS_DANCE
 	learnset 43, HI_JUMP_KICK ; Jump Kick → similar move
+	learnset 45, BRAVE_BIRD
 	learnset 47, DRILL_PECK
 	learnset 52, REVERSAL ; Endeavor → new move
 	learnset 56, THRASH
@@ -2141,7 +2146,7 @@ endc
 	learnset 5, SCRATCH ; Vice Grip → new move
 	learnset 9, LEER
 	learnset 11, DEFENSE_CURL ; Harden → similar move
-	learnset 15, BUBBLE_BEAM
+	learnset 15, BUG_BITE
 	learnset 19, DIG ; Mud Shot → egg move
 	learnset 21, METAL_CLAW
 	learnset 25, STOMP
@@ -2149,7 +2154,7 @@ endc
 	learnset 31, X_SCISSOR ; Guillotine → TM move
 	learnset 35, CLOSE_COMBAT ; Slam → new move
 	learnset 39, CRABHAMMER ; Brine → Crabhammer
-	learnset 41, ANCIENTPOWER ; Crabhammer → HGSS tutor move
+	learnset 41, MEGAHORN ; Crabhammer → HGSS tutor move
 	learnset 45, REVERSAL ; Flail → similar move
 
 	evos_attacks Kingler
@@ -2157,7 +2162,7 @@ endc
 	learnset 5, SCRATCH ; Vice Grip → new move
 	learnset 9, LEER
 	learnset 11, DEFENSE_CURL ; Harden → similar move
-	learnset 15, BUBBLE_BEAM
+	learnset 15, BUG_BITE
 	learnset 19, DIG ; Mud Shot → egg move
 	learnset 21, METAL_CLAW
 	learnset 25, STOMP
@@ -2165,7 +2170,7 @@ endc
 	learnset 37, X_SCISSOR ; Guillotine → TM move
 	learnset 44, CLOSE_COMBAT ; Slam → new move
 	learnset 51, CRABHAMMER ; Brine → Crabhammer
-	learnset 56, ANCIENTPOWER ; Crabhammer → HGSS tutor move
+	learnset 56, MEGAHORN ; Crabhammer → HGSS tutor move
 	learnset 63, REVERSAL ; Flail → new move
 
 	evos_attacks VoltorbPlain
@@ -2746,6 +2751,9 @@ endc
 	learnset 55, FIRE_BLAST
 
 	evos_attacks Pinsir
+	learnset 1, SPIKES
+	learnset 1, LEER
+	learnset 1, TACKLE
 	learnset 1, FURY_STRIKES ; Vice Grip → new move
 	learnset 1, FOCUS_ENERGY
 	learnset 4, WRAP ; Bind → similar move
@@ -2758,7 +2766,7 @@ endc
 	learnset 33, FEINT_ATTACK ; Submission → egg moves
 	learnset 36, OUTRAGE ; Storm Throw → LGPE move
 	learnset 40, SWORDS_DANCE
-	learnset 43, THRASH
+	learnset 43, EARTHQUAKE
 	learnset 47, CLOSE_COMBAT ; Superpower → similar move
 	learnset 50, MEGAHORN ; Guillotine → new move
 
@@ -3379,7 +3387,8 @@ endc
 	learnset 64, FLARE_BLITZ ; Eruption → egg move
 
 	evos_attacks Quilava
-	evo_data EVOLVE_LEVEL, 36, TYPHLOSION
+	evo_data EVOLVE_LEVEL, 36, TR_MORNDAY, TYPHLOSION, PLAIN_FORM
+	evo_data EVOLVE_LEVEL, 36, TR_EVENITE, TYPHLOSION, HISUIAN_FORM
 	learnset 1, TACKLE
 	learnset 1, LEER
 	learnset 6, SMOKESCREEN
@@ -3659,7 +3668,7 @@ endc
 	learnset 13, GUST ; Wing Attack → egg move
 	learnset 17, CONFUSE_RAY
 	learnset 19, WING_ATTACK ; Air Cutter → Wing Attack
-	learnset 24, SWIFT
+	learnset 24, POISON_JAB
 	learnset 27, SUPER_FANG ; Poison Fang → HGSS tutor move
 	learnset 32, MEAN_LOOK
 	learnset 35, LEECH_LIFE
@@ -4179,7 +4188,7 @@ endc
 	learnset 29, SCREECH
 	learnset 33, HEALINGLIGHT ; Moonlight → similar move
 	learnset 37, SUCKER_PUNCH ; Mean Look → tutor move
-	learnset 41, DOUBLE_EDGE ; Last Resort → tutor move
+	learnset 41, BODY_SLAM ; Last Resort → Defensive Physical Normal Stab
 	learnset 45, MEAN_LOOK ; Guard Swap → Mean Look
 
 	evos_attacks Murkrow
@@ -4426,10 +4435,10 @@ endc
 	learnset 13, LICK
 	learnset 19, HEADBUTT
 	learnset 25, ROAR
-	learnset 31, RAGE
+	learnset 31, CRUNCH
 	learnset 37, PLAY_ROUGH
 	learnset 43, DOUBLE_EDGE ; Payback → event move
-	learnset 49, CRUNCH
+	learnset 49, KNOCK_OFF
 
 	evos_attacks Granbull
 	learnset 1, TACKLE
@@ -4440,10 +4449,10 @@ endc
 	learnset 13, LICK
 	learnset 19, HEADBUTT
 	learnset 27, ROAR
-	learnset 35, RAGE
+	learnset 35, CRUNCH
 	learnset 43, PLAY_ROUGH
 	learnset 51, DOUBLE_EDGE ; Payback → event move
-	learnset 59, CRUNCH
+	learnset 59, KNOCK_OFF
 	learnset 67, OUTRAGE
 
 	evos_attacks QwilfishPlain
@@ -4608,6 +4617,7 @@ endc
 	evo_data EVOLVE_ITEM, MOON_STONE, URSALUNA
 	evo_data EVOLVE_LOCATION, SINJOH_RUINS, URSALUNA
 	evo_data EVOLVE_LOCATION, MYSTRI_STAGE, URSALUNA
+	evo_data EVOLVE_ITEM, SUN_STONE, URSALUNA, URSALUNA_BLOODMOON_FORM
 	learnset 1, GUNK_SHOT ; HGSS tutor move
 	learnset 1, THIEF ; Covet → TM move
 	learnset 1, SCRATCH
@@ -4891,7 +4901,8 @@ endc
 	learnset 1, DEFENSE_CURL
 	learnset 6, REVERSAL ; Flail → similar move
 	learnset 10, ROLLOUT
-	learnset 15, MAGNITUDE ; Natural Gift → Donphan move
+	learnset 13, DOUBLE_KICK
+	learnset 15, BULLDOZE ; Natural Gift → Donphan move
 	learnset 19, ENDURE
 	learnset 24, TAKE_DOWN ; Slam → Take Down
 	learnset 28, BODY_SLAM ; Take Down → TM move
@@ -4900,7 +4911,7 @@ endc
 	learnset 42, DOUBLE_EDGE
 
 	evos_attacks Donphan
-	learnset 1, FURY_STRIKES ; evolution move
+	learnset 1, STRENGTH ; evolution move
 	learnset 1, GUNK_SHOT ; HGSS tutor move
 	learnset 1, HORN_ATTACK
 	learnset 1, GROWL
@@ -4912,7 +4923,7 @@ endc
 	learnset 19, KNOCK_OFF
 	learnset 24, ANCIENTPOWER ; Slam → HGSS tutor move
 	learnset 30, IRON_TAIL ; Magnitude → TM move
-	learnset 37, SCARY_FACE
+	learnset 37, CLOSE_COMBAT
 	learnset 43, EARTHQUAKE
 	learnset 50, GIGA_IMPACT
 
@@ -5588,7 +5599,7 @@ endc
 	learnset 25, GIGA_DRAIN
 	learnset 29, SWORDS_DANCE
 	learnset 33, HEALINGLIGHT ; Synthesis → similar move
-	learnset 37, SEED_BOMB ; Sunny Day → tutor move
+	learnset 37, POWER_WHIP ; Sunny Day → tutor move
 	learnset 41, DOUBLE_EDGE ; Last Resort → tutor move
 	learnset 45, SUNNY_DAY ; Leaf Blade → Sunny Day
 
